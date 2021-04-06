@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    padding: 10px 20px;
+    display: flex;
+
+}
+.container {
+    padding: 30px;
+}
+.menu-group {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu-item:not(:last-child) {
+    margin-right: 16px;
+}
+.menu-link {
+    color: #262626;
+    text-decoration: none;
+}
