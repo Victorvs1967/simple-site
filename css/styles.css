@@ -16,14 +16,13 @@ body {
     align-items: center;
     list-style: none;
 }
-.menu-item:not(:last-child) {
-    margin-right: 16px;
-    color: beige;
-}
 .menu-link {
     color: #262626;
     text-decoration: none;
     color: beige;
+}
+.menu-item:not(:last-child) {
+    margin-right: 16px;
 }
 .dashboard {
     display: flex;
